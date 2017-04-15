@@ -5,9 +5,11 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "assets/img/mine.png",
+      "src": "src/minesweeper-app/assets/img/mine.png",
       "sizes": "96x96",
       "type": "image/png"
     }
-  ]
+  ],
+    "background_color": "#2196F3",
+
 }
