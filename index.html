@@ -292,10 +292,9 @@ function eachTile(callback) {
 }
 
 body {
-  background-color: white;
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif;
-  background-color: #336699;
+  background-color: black;
 }
 
 h1 {
@@ -313,6 +312,7 @@ h1 {
   width: 90vw;
   padding-bottom: 15px;
   padding-left: 30px;
+  max-width: 530px;
 }
 
 .menu {
@@ -329,6 +329,7 @@ h1 {
   padding-right: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  max-width: 500px;
 }
 
 .display {
@@ -336,7 +337,7 @@ h1 {
   color: #cc0000;
   text-shadow: 1px 1px red;
   background-color: #333333;
-  font-size: 25px;
+  font-size: 30px;
   height: 30px;
   padding: 0;
   border-top: 5px solid #1a1a1a;
@@ -348,11 +349,12 @@ h1 {
 
 .display td {
   height: 30px;
-  width: 150px;
+  width: 40vw;
   padding-left: 10px;
   text-align: left;
   vertical-align: middle;
   text-shadow: rgb(255,0,0,0.5) 0 0 10px;
+  max-width: 200px;
 }
 
 .button {
@@ -385,6 +387,7 @@ h1 {
 
 .row {
   height: 9vw;
+  max-height: 55px;
 }
 
 .tile {
@@ -399,6 +402,8 @@ h1 {
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .tile:hover {
@@ -423,8 +428,8 @@ h1 {
 
 .activated{
   text-align: center;
-  padding-top: 5px;
-  font-size: 35px;
+  padding-top: 2vw;
+  font-size: 5vw;
   font-weight: bolder;
 }
 
