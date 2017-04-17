@@ -3,11 +3,5 @@
   "short_name": "Polymer Minesweeper",
   "start_url": "/index.html",
   "display": "standalone",
-  "icons": [
-    {
-      "src": "assets/img/mine.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    }
-  ]
+  "background_color": "rgb(100,100,100)"
 }
